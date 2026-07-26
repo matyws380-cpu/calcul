@@ -41,9 +41,6 @@ android.add_src = no
 # منع التطبيق من النوم
 android.wakelock = True
 
-# نسخة التطبيق
-version = 1.0
-version.regex = (\\d+\\.\\d+)
 version.build = 1
 
 # معمارية المعالج
