@@ -16,7 +16,7 @@ source.dir = .
 requirements = python3,kivy,requests,pyjnius,android
 
 # أيقونة التطبيق (اختياري — حط أي صورة PNG)
- icon.filename = icon.png
+ icon.filename = mysos.png
 
 # الصلاحيات المطلوبة — كل اللي تحتاجه
 android.permissions = \
