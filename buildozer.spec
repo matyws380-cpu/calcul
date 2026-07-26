@@ -13,12 +13,12 @@ package.domain = com.calculatorpro
 source.dir = .
 
 # متطلبات Python
-requirements = python3,kivy,requests,pyjnius,android
+requirements = python3,kivy,requests
 
-# أيقونة التطبيق (اختياري — حط أي صورة PNG)
- icon.filename = mysos.png
+# أيقونة التطبيق (اختياري)
+# icon.filename = icon.png
 
-# الصلاحيات المطلوبة — كل اللي تحتاجه
+# الصلاحيات المطلوبة
 android.permissions = \
     INTERNET, \
     READ_EXTERNAL_STORAGE, \
@@ -30,7 +30,7 @@ android.permissions = \
     ACCESS_COARSE_LOCATION, \
     READ_MEDIA_IMAGES
 
-# API levels
+# API levels (تم رفع الـ API لـ 33 لتتوافق مع READ_MEDIA_IMAGES)
 android.api = 33
 android.minapi = 21
 android.ndk = 25b
@@ -41,6 +41,8 @@ android.add_src = no
 # منع التطبيق من النوم
 android.wakelock = True
 
+# نسخة التطبيق
+version = 1.0
 version.build = 1
 
 # معمارية المعالج
