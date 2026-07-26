@@ -31,7 +31,7 @@ android.permissions = \
     READ_MEDIA_IMAGES
 
 # API levels
-android.api = 31
+android.api = 33
 android.minapi = 21
 android.ndk = 25b
 
